@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Background shape with top corner radius -->
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="@color/black" /> <!-- Background color (ash) -->
+            <corners android:topLeftRadius="30dp" android:topRightRadius="30dp" />
+        </shape>
+    </item>
+
+    <!-- Box shadow -->
+    <item android:right="0dp" android:left="0dp" android:top="2dp" android:bottom="1dp">
+        <shape android:shape="rectangle">
+            <solid android:color="#E6E1E1" /> <!-- Transparent color for shadow -->
+            <corners android:topLeftRadius="30dp" android:topRightRadius="30dp" />
+        </shape>
+    </item>
+</layer-list>

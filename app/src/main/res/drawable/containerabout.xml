@@ -1,0 +1,18 @@
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Box Shadow -->
+    <item>
+        <shape
+            android:shape="rectangle">
+            <solid android:color="#061147" /> <!-- Red shadow color -->
+            <corners android:radius="8dp" /> <!-- Adjust the radius for your shadow effect -->
+        </shape>
+    </item>
+    <!-- Box Color -->
+    <item android:right="4dp" android:top="4dp" >
+        <shape
+            android:shape="rectangle">
+            <solid android:color="#0000FF" /> <!-- Blue box color -->
+            <corners android:radius="8dp" /> <!-- Adjust the radius for your box effect -->
+        </shape>
+    </item>
+</layer-list>

@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "287623986260",
+    "project_id": "final-emts",
+    "storage_bucket": "final-emts.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:287623986260:android:1a78b883707231e6c501c1",
+        "android_client_info": {
+          "package_name": "com.example.final_emts"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCDPaPpGg4CJ2bwWhSiSmGfI7rQk4zUZdI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

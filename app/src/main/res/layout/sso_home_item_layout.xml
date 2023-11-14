@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginHorizontal="10dp"
+    android:layout_marginBottom="10dp"
+    android:background="@drawable/round_buttonhome"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:ignore="UselessParent">
+
+        <ImageView
+            android:id="@+id/icon22"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center|left"
+            android:layout_marginLeft="5dp"
+            android:contentDescription="@string/todo"
+            android:src="@drawable/error_24"
+            tools:ignore="RtlHardcoded" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/valiTitle"
+                android:layout_width="202dp"
+                android:layout_height="match_parent"
+                android:paddingVertical="10dp"
+                android:textAlignment="center"
+                android:textColor="#009688"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                tools:text="My Location" />
+
+            <TextView
+                android:id="@+id/valiDescription"
+                android:layout_width="202dp"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textColor="@color/white"
+                android:textSize="14sp"
+                tools:ignore="TextSizeCheck"
+                tools:text="My long long long description" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/ssoAssignbtn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="3dp"
+                android:layout_marginEnd="6dp"
+                android:text="@string/ssoassign" />
+
+            <Button
+                android:id="@+id/ssoFowardbtn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="6dp"
+                android:textColor="@color/black"
+                android:backgroundTint="@color/white"
+                android:text="@string/ssoforward" />
+        </LinearLayout>
+    </GridLayout>
+</RelativeLayout>

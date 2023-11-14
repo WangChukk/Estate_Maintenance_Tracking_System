@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">Maintenance Tracking System</string>
+    <string name="navigation_drawer_open">Open Navigation Drawer</string>
+    <string name="navigation_drawer_close">Close Navigation Drawer</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="save">Save</string>
+    <string name="pending_requests">Pending Requests</string>
+    <string name="todo">TODO</string>
+    <string name="assign">Assign</string>
+    <string name="forward">Forward</string>
+    <string name="todo2">TODO</string>
+    <string name="reject">Reject</string>
+    <string name="accept">Accept</string>
+    <string name="your_current_requests">Your Current Requests</string>
+    <string name="ssoassign">Assign</string>
+    <string name="ssoforward">Forward</string>
+    <string name="done">Done</string>
+    <string name="name_wangchuk">Name: Wangchuk</string>
+    <string name="contact_17">Contact: 17******</string>
+    <string name="email_justwangchuk_gmail_com">Email: justwangchuk@gmail.com</string>
+    <string name="contact_17rr">Contact: 17******</string>
+    <string name="todom">TODO</string>
+    <string name="name_wangchuklo">Name: Wangchuk</string>
+    <string name="kk">Email: justwangchuk@gmail.com</string>
+    <string name="todoaa">TODO</string>
+    <string name="todoaaaa">TODO</string>
+    <string name="todoqq">TODO</string>
+    <string name="estate_maintenance_tracking_system">ESTATE MAINTENANCE TRACKING SYSTEM</string>
+    <string name="about_us">About Us</string>
+    <string name="the_college_campus_does_not_currently_have_a_simplified_and_effective_method_for_processing_estate_maintenance_requests_this_shortcoming_leads_to_sluggish_reaction_times_ineffective_resource_management_and_inefficient_maintenance_operations">The college campus does not currently have a simplified and effective method for processing estate maintenance requests. This shortcoming leads to sluggish reaction times, ineffective resource management, and inefficient maintenance operations.</string>
+    <string name="a_maintenance_tracking_system_is_a_software_or_a_system_designed_to_manage_and_track_maintenance_activities_in_various_contexts_such_as_facilities_equipment_vehicles_or_any_assets_that_require_maintenance_its_primary_purpose_is_to_ensure_that_maintenance_tasks_are_carried_out_efficiently_effectively_and_on_schedule_to_minimize_downtime_reduce_costs_and_ensure_the_reliable_operation_of_assets">A Maintenance Tracking System is a software or a system designed to manage and track maintenance activities in various contexts, such as facilities, equipment, vehicles, or any assets that require maintenance. Its primary purpose is to ensure that maintenance tasks are carried out efficiently, effectively, and on schedule to minimize downtime, reduce costs, and ensure the reliable operation of assets.</string>
+    <string name="about_page">About Page</string>
+    <string name="back_btn">back Btn</string>
+    <string name="pending_requests2">Pending Requests</string>
+    <string name="department_icon">Department Icon</string>
+    <string name="email_icon">Email Icon</string>
+    <string name="year_icon">Year Icon</string>
+    <string name="gender_icon">Gender Icon</string>
+    <string name="phone_icon">Phone Icon</string>
+</resources>

@@ -1,0 +1,18 @@
+<!-- res/drawable/rounded_button_with_shadow.xml -->
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Box shadow (behind the shape) -->
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="@color/black" /> <!-- Transparent color for shadow -->
+            <corners android:radius="20dp" /> <!-- Adjust the radius as needed -->
+        </shape>
+    </item>
+
+    <!-- Background shape with top corner radius (on top of the shadow) -->
+    <item android:left="0dp" android:top="5dp" android:right="0dp" android:bottom="0dp">
+        <shape>
+            <solid android:color="#4B80AA" /> <!-- Background color -->
+            <corners android:radius="20dp" /> <!-- Adjust the radius as needed -->
+        </shape>
+    </item>
+</layer-list>
